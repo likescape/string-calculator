@@ -8,12 +8,21 @@ import java.util.List;
  * 각 책임은 별도 클래스에 위임할 것.
  */
 public class StringCalculator {
+    InputParser inputParser = new InputParser();
+    Calculator calculator = new Calculator();
+    CalculationHistory calculationHistory = new CalculationHistory();
+
+    public StringCalculator() {}
 
     public double calculate(String input) {
-        throw new UnsupportedOperationException("구현 필요");
+        List<String> parseInput = inputParser.parse(input);
+        double calculated_value = calculator.calculate(parseInput);
+        calculationHistory.inputLog(input);
+
+        return calculated_value;
     }
 
     public List<String> getHistory() {
-        throw new UnsupportedOperationException("구현 필요");
+        return calculationHistory.getHistory();
     }
 }
