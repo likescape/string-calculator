@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="calculator.StringCalculatorTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-03-14T17:35:16" hostname="ganghyeonjun-ui-MacBookAir.local" time="0.049">
+<testsuite name="calculator.StringCalculatorTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-03-16T05:41:22" hostname="ganghyeonjun-ui-MacBookAir.local" time="0.086">
   <properties/>
-  <testcase name="연산_이력이_최근순으로_저장된다()" classname="calculator.StringCalculatorTest" time="0.025"/>
+  <testcase name="연산_이력이_최근순으로_저장된다()" classname="calculator.StringCalculatorTest" time="0.04"/>
   <testcase name="콜론_구분자로_덧셈한다()" classname="calculator.StringCalculatorTest" time="0.002"/>
-  <testcase name="영으로_나누면_예외가_발생한다()" classname="calculator.StringCalculatorTest" time="0.002"/>
-  <testcase name="null이면_0을_반환한다()" classname="calculator.StringCalculatorTest" time="0.0"/>
-  <testcase name="빈_문자열이면_0을_반환한다()" classname="calculator.StringCalculatorTest" time="0.0"/>
+  <testcase name="영으로_나누면_예외가_발생한다()" classname="calculator.StringCalculatorTest" time="0.003"/>
+  <testcase name="null이면_0을_반환한다()" classname="calculator.StringCalculatorTest" time="0.001"/>
+  <testcase name="빈_문자열이면_0을_반환한다()" classname="calculator.StringCalculatorTest" time="0.001"/>
   <testcase name="뺄셈_연산을_수행한다()" classname="calculator.StringCalculatorTest" time="0.001"/>
   <testcase name="음수_입력시_예외가_발생한다()" classname="calculator.StringCalculatorTest" time="0.001"/>
   <testcase name="쉼표와_콜론_혼합으로_덧셈한다()" classname="calculator.StringCalculatorTest" time="0.0"/>
-  <testcase name="덧셈_연산자를_명시적으로_지정한다()" classname="calculator.StringCalculatorTest" time="0.0"/>
-  <testcase name="연산_이력은_최대_10개까지_저장된다()" classname="calculator.StringCalculatorTest" time="0.006"/>
-  <testcase name="나눗셈_결과가_소수이면_첫째자리까지_반환한다()" classname="calculator.StringCalculatorTest" time="0.0"/>
-  <testcase name="곱셈_연산을_수행한다()" classname="calculator.StringCalculatorTest" time="0.001"/>
-  <testcase name="쉼표_구분자로_덧셈한다()" classname="calculator.StringCalculatorTest" time="0.0"/>
-  <testcase name="커스텀_구분자_파이프를_사용한다()" classname="calculator.StringCalculatorTest" time="0.0"/>
+  <testcase name="덧셈_연산자를_명시적으로_지정한다()" classname="calculator.StringCalculatorTest" time="0.002"/>
+  <testcase name="연산_이력은_최대_10개까지_저장된다()" classname="calculator.StringCalculatorTest" time="0.012"/>
+  <testcase name="나눗셈_결과가_소수이면_첫째자리까지_반환한다()" classname="calculator.StringCalculatorTest" time="0.001"/>
+  <testcase name="곱셈_연산을_수행한다()" classname="calculator.StringCalculatorTest" time="0.0"/>
+  <testcase name="쉼표_구분자로_덧셈한다()" classname="calculator.StringCalculatorTest" time="0.001"/>
+  <testcase name="커스텀_구분자_파이프를_사용한다()" classname="calculator.StringCalculatorTest" time="0.002"/>
   <testcase name="지원하지_않는_연산자_입력시_예외가_발생한다()" classname="calculator.StringCalculatorTest" time="0.001"/>
   <testcase name="숫자_하나면_그대로_반환한다()" classname="calculator.StringCalculatorTest" time="0.0"/>
   <testcase name="커스텀_구분자로_덧셈한다()" classname="calculator.StringCalculatorTest" time="0.001"/>
-  <testcase name="나눗셈_연산을_수행한다()" classname="calculator.StringCalculatorTest" time="0.0"/>
+  <testcase name="나눗셈_연산을_수행한다()" classname="calculator.StringCalculatorTest" time="0.001"/>
   <testcase name="숫자가_아닌_값_입력시_예외가_발생한다()" classname="calculator.StringCalculatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -6,10 +6,28 @@ package calculator;
  * 반드시 이 클래스를 사용할 필요는 없다. 자유롭게 설계할 것.
  */
 public enum OperationType {
-    PLUS("+"),
-    MINUS("-"),
-    TIMES("*"),
-    DIVIDES("/");
+    PLUS("+"){
+        @Override
+        public double operate(double a, double b) { return a + b; }
+    },
+    MINUS("-"){
+        @Override
+        public double operate(double a, double b) { return a - b; }
+    },
+    TIMES("*"){
+        @Override
+        public double operate(double a, double b) { return a * b; }
+
+    },
+    DIVIDES("/"){
+        @Override
+        public double operate(double a, double b) {
+            if(b == 0) {
+                throw new IllegalArgumentException("0으로 나눌 수 없습니다.");
+            }
+            return a / b;
+        }
+    };
 
     private final String symbol;
 
@@ -31,5 +49,7 @@ public enum OperationType {
     public String getSymbol() {
         return symbol;
     }
+
+    public abstract double operate(double a, double b);
 }
 

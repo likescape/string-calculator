@@ -9,24 +9,8 @@ public class Calculator {
 
     private double calculate(OperationType operator, double result, String s) {
         double b = Double.parseDouble(s);
-        if(operator == OperationType.PLUS){
-            return result + b;
-        }
-        if(operator == OperationType.MINUS){
-            return result - b;
-        }
-        if(operator == OperationType.TIMES){
-            return result * b;
-        }
-        if(operator == OperationType.DIVIDES){
 
-            if(b == 0){
-                throw new IllegalArgumentException("0으로 나눌 수 없습니다");
-            }
-            return result / b;
-        }
-
-        throw new IllegalArgumentException("Calculator does not support " + operator);
+        return operator.operate(result, b);
     }
 
     public double calculate(List<String> calculateList) {
